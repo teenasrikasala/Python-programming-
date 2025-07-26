@@ -1,0 +1,20 @@
+#cmd to push new file 
+git init
+git add .
+git commit -m Main "intial commit"
+.....initialization........
+git branch -m main
+git remote add origin(link)
+git push -u origin main
+#cmd to push existing modified file
+git add .
+git commit -m Main "modified"
+git branch -m main
+git push -u main origin
+#cmd to pull
+*copy link from repository
+*open new terminal
+*navigate to the folder
+*clone it in the desired terminal
+git clone (link)
+*pull the code from git
